@@ -17,11 +17,11 @@ public class conversor {
 		double F = 50;
 		double C = (F-V1)*V2;
 				
-				System.out.println(F+"ºF em graus Celsius é igual a "+C+"ºC");
+			    System.out.println(F+"ºF em graus Celsius é igual a "+C+"ºC");
 		
 		
 		F = 77;
-    C = (F-V1)*V2;
+                C = (F-V1)*V2;
 						
 			    System.out.println(F+"ºF em graus Celsius é igual a "+C+"ºC");
 				
