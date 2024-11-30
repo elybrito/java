@@ -1,0 +1,32 @@
+
+//Código conversor de escala Fahrenheit para Celsius
+//Fórmula da conversão: (ºF - 32) x 5.0/9 = º C 
+
+package fundamentos;
+
+public class conversor {
+	
+		
+	public static void main(String[] args)
+	
+	{
+		
+		
+		final double V1 = 32;
+		final double V2 = 5.0/9;
+		double F = 50;
+		double C = (F-V1)*V2;
+				
+				System.out.println(F+"ºF em graus Celsius é igual a "+C+"ºC");
+		
+		
+		F = 77;
+    C = (F-V1)*V2;
+						
+			    System.out.println(F+"ºF em graus Celsius é igual a "+C+"ºC");
+				
+			
+	}
+	
+	
+}
